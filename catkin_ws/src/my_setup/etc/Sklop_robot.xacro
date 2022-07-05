@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot name="UR5e_robotiq"  xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <xacro:include filename="$(find ur_description)/urdf/ur5e.xacro" />
+  <xacro:include filename="$(find robotiq_2f_85_gripper_visualization)/urdf/robotiq_arg2f_85_model.xacro" />
+  
+  <joint name="spoj" type = "fixed">
+    <parent link="tool0" />
+    <child link="robotiq_arg2f_base_link" />
+  </joint>
+  
+</robot>    

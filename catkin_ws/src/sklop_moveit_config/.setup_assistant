@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: my_setup
+    relative_path: etc/Sklop.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/UR5e_robotiq.srdf
+  CONFIG:
+    author_name: Domagoj
+    author_email: dp215767@fsb.hr
+    generated_timestamp: 1656440292

@@ -1,0 +1,8 @@
+prefix=/home/domagoj/catkin_ws/devel
+
+Name: my_setup
+Description: Description of my_setup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
